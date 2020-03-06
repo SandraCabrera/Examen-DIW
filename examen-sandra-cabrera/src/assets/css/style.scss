@@ -1,0 +1,15 @@
+$fondo_blanco: #FFFFFF;
+$fondo_gris: #808080;
+
+.card {
+    width: 400px;
+    
+    h2 {
+        text-align: center;
+    }
+
+    .descripcion {
+        text-align: center;
+        margin: 12px;
+    }
+}

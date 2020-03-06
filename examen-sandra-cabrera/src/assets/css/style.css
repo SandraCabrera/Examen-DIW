@@ -1,1 +1,13 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.card {
+  width: 400px;
+}
+
+.card h2 {
+  text-align: center;
+}
+
+.card .descripcion {
+  text-align: center;
+  margin: 12px;
+}
+/*# sourceMappingURL=style.css.map */
