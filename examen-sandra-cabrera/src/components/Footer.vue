@@ -1,13 +1,18 @@
 <template lang="html">
     <footer>
         <p>
-            © 2020 FIDE International Chess Federation. All Rights Reserved. No part of this site may be reproduced, stored in a retrieval system or transmitted in any way or by any means(including photocopying, recording or storing it in any medium by electronic means), without the written permission of FIDE International Chess Federation.
+            {{ mensaje }}
         </p>
     </footer>
 </template>
 
 <script>
 export default {
+data() {
+        return {
+            mensaje: "© 2020 FIDE International Chess Federation. All Rights Reserved. No part of this site may be reproduced, stored in a retrieval system or transmitted in any way or by any means(including photocopying, recording or storing it in any medium by electronic means), without the written permission of FIDE International Chess Federation."
+        }
+    }
 };
 </script>
 
