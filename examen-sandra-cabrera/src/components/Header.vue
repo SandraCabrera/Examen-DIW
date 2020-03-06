@@ -23,6 +23,9 @@ $color_letras: #FFFFFF;
 
     h1 {
         color: $color_letras;
+        display:inline-flex;
+        margin-top: 12px;
+        margin-left: 54px;
     }
 }
 </style>
