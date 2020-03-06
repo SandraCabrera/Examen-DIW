@@ -12,6 +12,9 @@ Vue.use(IconsPlugin)
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
+//css
+import './assets/css/style.css'
+
 Vue.config.productionTip = false
 
 new Vue({
