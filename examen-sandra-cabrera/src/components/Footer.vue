@@ -1,9 +1,9 @@
 <template lang="html">
-    <footer>
-        <p>
+    <div>
+        <div class="mensaje">
             {{ mensaje }}
-        </p>
-    </footer>
+        </div>
+    </div>
 </template>
 
 <script>
@@ -20,10 +20,12 @@ data() {
 $color_fondo: #334166;
 $color_letras: #687A88;
 
-footer {
+div {
     background-color: $color_fondo;
+    height: 80px;
+    margin-top: 12px;
 
-    p {
+    .mensaje {
         color: #687A88;
         text-align:center;
     }

@@ -20,6 +20,7 @@ $color_letras: #FFFFFF;
 
 .app {
     background-color: $color_fondo;
+    margin-bottom: 12px;
 
     h1 {
         color: $color_letras;
